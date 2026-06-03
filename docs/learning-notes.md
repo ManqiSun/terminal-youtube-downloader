@@ -1,224 +1,46 @@
-# Learning Notes
+# 学习笔记 | Learning Notes
 
-## Project Overview
+## 项目概览 | Project Overview
 
-This project started with a simple goal:
+这个项目让我第一次接触完整的工具开发流程。
 
-Create a command-line tool that can download YouTube videos with a short command.
+## Lesson 1 — 写代码只是开发的一部分
 
-Although the final functionality is relatively simple, the development process taught me much more than I expected.
+真正的开发还包括：
 
----
+- 环境配置
+- 路径管理
+- 工具集成
+- 调试
 
-## What I Thought Before Starting
+## Lesson 2 — 理解 PATH
 
-Before building this project, I believed that learning Python mainly meant:
+安装软件不等于终端能够找到软件。
 
-* learning syntax
-* writing functions
-* understanding variables and loops
+## Lesson 3 — PowerShell 与 CMD 的区别
 
-I thought that once I knew enough Python, building a tool would be straightforward.
+不同终端环境可能导致不同结果。
 
-This project changed that perspective.
+## Lesson 4 — 文件路径的重要性
 
----
+路径问题往往比 Python 语法问题更常见。
 
-## Lesson 1 — Writing Code Is Only Part of Development
+## Lesson 5 — bat 文件的作用
 
-The Python code itself was only a small part of the project.
+bat 文件可以把脚本包装成更易用的命令。
 
-Most of the challenges came from:
+## Lesson 6 — Debug 是开发的一部分
 
-* environment setup
-* terminal configuration
-* file paths
-* command execution
-* tool integration
+调试不是失败，而是开发过程的一部分。
 
-This helped me understand that software development is not just programming.
+## Lesson 7 — AI 辅助开发
 
-It is also about making different tools work together.
+AI 提供建议，但最终仍然需要自己验证和解决问题。
 
----
+## 最大收获 | Biggest Takeaway
 
-## Lesson 2 — Understanding PATH
+我第一次完整经历了：
 
-One of the first problems I encountered was:
+需求 → 开发 → 调试 → 工具落地
 
-```text
-yt-dlp is not recognized
-```
-
-At first I thought something was wrong with the installation.
-
-Later I learned about Windows PATH.
-
-### My Understanding Now
-
-PATH is a list of locations that Windows searches when a command is entered.
-
-If a tool is installed but not included in PATH, the terminal cannot find it.
-
-This was my first practical experience with environment configuration.
-
----
-
-## Lesson 3 — PowerShell and CMD Are Different
-
-Before this project, I treated all terminals as the same thing.
-
-During development I discovered that:
-
-* PowerShell behaves differently from CMD
-* Commands may work in one environment and fail in another
-
-This taught me that execution environments matter.
-
-Understanding the environment is just as important as understanding the code.
-
----
-
-## Lesson 4 — File Paths Matter
-
-Several issues were caused by file paths rather than Python logic.
-
-Examples included:
-
-* script execution location
-* relative paths
-* Chinese folder names
-
-I learned that path management is an important part of building reliable tools.
-
----
-
-## Lesson 5 — Batch Files Are Useful
-
-Before this project, I rarely used batch files.
-
-By creating:
-
-```text
-yt-basic.bat
-yt-hd.bat
-```
-
-I learned how batch files can simplify command-line workflows.
-
-Instead of running Python manually every time, I could create commands that felt like real tools.
-
----
-
-## Lesson 6 — Debugging Is a Skill
-
-The biggest surprise was how much time was spent debugging.
-
-Examples:
-
-* command not recognized
-* wrong execution path
-* terminal differences
-* encoding issues
-
-At first these errors felt frustrating.
-
-Over time I realized that debugging is not something separate from development.
-
-Debugging is development.
-
----
-
-## Lesson 7 — AI Is a Development Assistant
-
-This project was built with AI assistance.
-
-AI helped me:
-
-* understand error messages
-* compare possible solutions
-* explain unfamiliar concepts
-* organize my development process
-
-However, I still needed to:
-
-* test solutions
-* verify results
-* adjust configurations
-* solve environment-specific problems
-
-This helped me understand the difference between:
-
-```text
-Getting a suggestion
-```
-
-and
-
-```text
-Making something actually work
-```
-
----
-
-## Lesson 8 — Real Projects Feel Different
-
-Compared with learning exercises, this project felt different because it solved a real problem.
-
-I was not writing code simply to complete a lesson.
-
-I was building something I intended to use.
-
-That made the debugging process more meaningful and helped me stay motivated.
-
----
-
-## Biggest Takeaway
-
-The most important thing I learned is that building software is not only about code.
-
-A working tool requires:
-
-```text
-Idea
-↓
-Research
-↓
-Development
-↓
-Environment Setup
-↓
-Testing
-↓
-Debugging
-↓
-Iteration
-↓
-Usable Result
-```
-
-This project was my first experience completing that full cycle.
-
----
-
-## Looking Back
-
-The downloader itself is a small utility.
-
-But for me, the value of the project is not the final command.
-
-The value is learning how a real tool comes together.
-
-This project helped me move from:
-
-```text
-Following tutorials
-```
-
-to:
-
-```text
-Building something for myself
-```
-
-And that is the most meaningful result of this project.
+这一完整过程。
