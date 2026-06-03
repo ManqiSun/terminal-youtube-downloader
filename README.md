@@ -1,5 +1,9 @@
 # Terminal YouTube Downloader
 
+## Demo
+
+![Terminal Demo](terminal-demo.png)
+
 My first real-world Python utility project.
 
 A simple command-line YouTube downloader built with Python, yt-dlp, PowerShell and Windows batch files.
