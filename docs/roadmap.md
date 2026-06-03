@@ -1,109 +1,37 @@
-# Roadmap
+# 项目路线图 | Roadmap
 
-## Project Philosophy
+## 项目定位 | Project Philosophy
 
-This project is intentionally kept small.
+保持简单，记录学习过程。
 
-The goal is not to build a complex download platform.
+## v1.0 已完成 | Completed
 
-The goal is to document my learning process while creating useful tools with Python.
+- [x] 下载 YouTube 视频
+- [x] 下载视频封面
+- [x] 保存到指定目录
+- [x] 1080P 模式
+- [x] 最高画质模式
+- [x] bat 文件集成
 
----
+## v1.1 优化计划 | Workflow Improvements
 
-## v1.0 — Completed
+- [ ] 更友好的报错提示
+- [ ] 更清晰的终端输出
+- [ ] 更规范的目录结构
+- [ ] 基础日志记录
 
-### Core Features
+## v1.2 学习扩展 | Learning Extensions
 
-* [x] Download YouTube videos
-* [x] Download video thumbnails
-* [x] Save files to a specified directory
-* [x] 1080P download mode
-* [x] Highest quality download mode
-* [x] Terminal command support
-* [x] Windows batch file integration
+- [ ] 音频下载模式
+- [ ] 播放列表下载
+- [ ] 配置文件支持
 
-### Commands
+## 长期目标 | Long-Term Vision
 
-```bash
-yt-basic
-```
+从：
 
-Download video and thumbnail (up to 1080P)
+Follow Tutorials
 
-```bash
-yt-hd
-```
+逐步走向：
 
-Download video and thumbnail (highest available quality)
-
----
-
-## v1.1 — Workflow Improvements
-
-Possible improvements:
-
-* [ ] Better error messages
-* [ ] Clearer terminal prompts
-* [ ] More consistent output formatting
-* [ ] Improved download directory organization
-* [ ] Basic logging support
-
-Focus:
-
-Improve usability rather than adding complexity.
-
----
-
-## v1.2 — Learning Extensions
-
-Possible learning-oriented improvements:
-
-* [ ] Audio-only download mode
-* [ ] Playlist download support
-* [ ] Configuration file support
-* [ ] Custom download path settings
-
-Focus:
-
-Explore additional Python concepts while keeping the project manageable.
-
----
-
-## Future Learning Goals
-
-This project helped me learn:
-
-* Python
-* Command-line tools
-* Windows PATH
-* PowerShell
-* Batch files
-* Debugging
-
-Future projects may explore:
-
-* JSON
-* APIs
-* Automation
-* Scheduled tasks
-* Multi-file Python projects
-
----
-
-## Long-Term Vision
-
-The downloader itself is not the final goal.
-
-The real goal is to gradually move from:
-
-```text
-Following tutorials
-```
-
-to:
-
-```text
-Building tools for my own needs
-```
-
-This repository is one step in that journey.
+Build Tools for My Own Needs
